@@ -10,7 +10,6 @@ import {
 } from "react-router-dom";
 import Home from './Component/Home/Home';
 import NoMatch from './Component/NoMatch/NoMatch';
-import SignUp from './Component/SignUp/SignUp';
 import BookingCoxBazar from './Component/BookingCoxBazar/BookingCoxBazar';
 import BookingSreeMangal from './Component/BookingSreeMangal/BookingSreeMangal';
 import BookingSundarBan from './Component/BookingSundarBan/BookingSundarBan';
@@ -53,9 +52,6 @@ function App() {
         <PrivateRoute path="/booking/SreeMangalHotel">
         <SreeMangalHotel></SreeMangalHotel>
         </PrivateRoute>
-        <Route path="/sign up">
-        <SignUp></SignUp>
-        </Route>
         <Route exact path="/">
           <Home></Home>
           </Route>

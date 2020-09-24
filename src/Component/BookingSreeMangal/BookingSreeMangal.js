@@ -44,7 +44,7 @@ const BookingSreeMangal = () => {
             
                </div>
              </div>
-              <button className="btn btn-warning">Start Booking</button>
+              <button type="submit" className="btn btn-warning">Start Booking</button>
          </form>
         </div>
        </div>
